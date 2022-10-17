@@ -1,6 +1,11 @@
 import React from 'react'
 import './AboutMeStyle.css'
-
+import {IoLogoJavascript} from 'react-icons/io'
+import {DiReact} from 'react-icons/di'
+import {DiMongodb} from 'react-icons/di'
+import {FaPython} from 'react-icons/fa'
+import {SiPostgresql} from 'react-icons/si'
+import {SiExpress} from 'react-icons/si'
 const AboutMe = () => {
   return (
     <>
@@ -17,27 +22,27 @@ const AboutMe = () => {
         <ul id='skills-list'>
            
             <li>
-                <p>Node.js</p>
+                <p> <IoLogoJavascript/> </p>
             </li>
 
             <li>
-               <p>React</p>
+               <p> <DiReact/> </p>
             </li>
 
             <li>
-                <p>Mongodb</p>
+                <p> <DiMongodb/> </p>
             </li>
 
             <li>
-                <p>Python</p>
+                <p> <FaPython/> </p>
             </li>
 
             <li>
-                <p>Sql</p>
+                <p> <SiPostgresql/> </p>
             </li>
 
             <li>
-                <p>Express</p>
+                <p> <SiExpress/> </p>
             </li>
 
 

@@ -18,11 +18,10 @@
 }
 
 #skills-title{
-    color: white;
-    display:flex;
-    text-align: center;
-    padding-top: 5rem;
-    padding-left: 58rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    margin:auto;
 
 }
 
